@@ -1,0 +1,13 @@
+name: gpytorch
+channels:
+  - defaults
+dependencies:
+  - matplotlib
+  - numpy
+  - pandas
+  - python
+  - conda-forge::gpytorch
+  - anaconda::jupyter_client
+  - ipykernel
+  - anaconda::openpyxl
+prefix: /home/gouravk/miniconda3/envs/gpytorch
