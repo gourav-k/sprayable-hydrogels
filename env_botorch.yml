@@ -1,0 +1,13 @@
+name: botorch
+channels:
+  - defaults
+dependencies:
+  - matplotlib
+  - numpy
+  - pandas
+  - python
+  - anaconda::jupyter_client
+  - ipykernel
+  - pip:
+    - botorch
+prefix: /home/gouravk/miniconda3/envs/botorch
